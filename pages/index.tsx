@@ -2,13 +2,6 @@ import React, { useEffect, useState, useMemo } from 'react';
 import Confetti from 'react-dom-confetti';
 import styled from 'styled-components'
 
-const Container = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-`;
-
 const Image = styled.img`
   width: 100%;
   padding: 2rem;
